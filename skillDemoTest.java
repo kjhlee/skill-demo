@@ -4,6 +4,6 @@ public class skillDemoTest {
     @Test
     public void check()
     {
-        assertEquals(true, skillDemo.longWord("five"));
+        assertEquals(false, skillDemo.longWord("five"));
     }
 }
