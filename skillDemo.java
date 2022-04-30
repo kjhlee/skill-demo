@@ -1,3 +1,7 @@
 public class skillDemo{
-//this is a new file from github
+    public static boolean longWord(String word)
+    {
+        if(word.length() >= 10){return true;}
+        return false;
+    }
 }
